@@ -9,13 +9,13 @@ class Transceiver():
         self.tx_center_freq = args.tx_sample_rate
         self.tx_center_freq = args.tx_center_freq
         self.tx_channel_freq = args.tx_channel_freq
-        self.tx_antenna = args.tx_antenna
+        # self.tx_antenna = args.tx_antenna
         self.tx_gain = args.tx_gain
         
         self.rx_sample_rate = args.rx_sample_rate
         self.rx_center_freq = args.rx_center_freq
         self.rx_channel_freq = args.rx_channel_freq
-        self.rx_antenna = args.rx_antenna
+        # self.rx_antenna = args.rx_antenna
         self.rx_gain = args.rx_gain
         
         
