@@ -6,7 +6,7 @@ from loguru import logger
 
 class Transceiver():
     def __init__(self, args):
-        self.tx_center_freq = args.tx_sample_rate
+        self.tx_sample_rate = args.tx_sample_rate
         self.tx_center_freq = args.tx_center_freq
         self.tx_channel_freq = args.tx_channel_freq
         # self.tx_antenna = args.tx_antenna
